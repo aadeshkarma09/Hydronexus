@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: hydronexus
+      POSTGRES_USER: hydronexus
+      POSTGRES_PASSWORD: hydronexus
+    ports: ["5432:5432"]
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://hydronexus:hydronexus@db:5432/hydronexus
+      PORT: 10000
+    ports: ["10000:10000"]
+    depends_on: [db]
