@@ -1,0 +1,17 @@
+{
+  "scenario_id": "S1",
+  "scenario_name": "Major Demo Breach",
+  "status": "demo",
+  "snapshot": "04SEP2026 00:29:00",
+  "peak_breach_flow_cfs": 82919.17,
+  "peak_breach_flow_m3s": 2348.01,
+  "peak_breach_velocity_mps": 3.69,
+  "max_face_velocity_mps": 11.26,
+  "max_depth_m": 24.73,
+  "flooded_area_km2": 15.26,
+  "cells_with_depth_gt_0_5ft": 16847,
+  "simulation_hours": 8.0,
+  "source_file": "Machhu2_new.p02.hdf",
+  "crs": "EPSG:32642",
+  "note": "Demo-only snapshot at peak modeled breach flow. Not an operational forecast or validated inundation prediction."
+}

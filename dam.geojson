@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8666667,
+          22.7666667
+        ]
+      },
+      "properties": {
+        "name": "Machhu-II Dam",
+        "type": "dam"
+      }
+    }
+  ]
+}
